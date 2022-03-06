@@ -1,0 +1,63 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#second-row {
+    position: fixed;
+    top: 10%;
+}
+
+#card {
+    border-radius: 20px !important;
+}
+
+#details {
+    background: rgb(255, 255, 255);
+    border-radius: 20px;
+    box-shadow: 1px 1px 13px 7px #000, -2px 1px 29px 1px #ffffff !important;
+}
+
+#close-btn {
+    padding: 0px 15px;
+    background: red;
+    color: #ffffff;
+    border: none;
+    border-radius: 20px;
+    font-weight: 500;
+    margin: 10px;
+    float: right;
+    animation: btn 1s ease infinite alternate-reverse;
+}
+
+@keyframes btn {
+    0% {
+        transform: scale(0.5)
+    }
+    100% {
+        transform: scale(1)
+    }
+}
+
+.blur {
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+}
+
+#see-more-btn {
+    float: right;
+}
+
+#see-more-btn i {
+    animation: see-btn 1s ease infinite alternate-reverse;
+}
+
+@keyframes see-btn {
+    0% {
+        transform: scale(0.5)
+    }
+    100% {
+        transform: scale(1.1)
+    }
+}
